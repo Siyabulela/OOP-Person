@@ -6,10 +6,10 @@ class Person {
         this.interests = interests
     }
     hello() {
-        console.log("Name:\t" + this.name + "\nAge:\t" + this.age + "\nGender:\t" + this.gender + "\nInterests\t" + this.interests)
+        console.log("Name:\t" + this.name + "\nAge:\t" + this.age + "\nGender:\t" + this.gender + "\nInterest:" + this.interests)
     }
 }
 
 let person = new Person('Ryan', 30, 'male', ['being a hardarse', 'agile', 'ssd hard drives'])
 let greeting = person.hello()
-console.log(greeting)
+    //console.log(greeting)
