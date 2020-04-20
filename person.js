@@ -6,7 +6,8 @@ class Person {
         this.interests = interests
     }
     hello() {
-        console.log("Name:\t" + this.name + "\nAge:\t" + this.age + "\nGender:\t" + this.gender + "\nInterest:" + this.interests)
+        //console.log("Name:\t" + this.name + "\nAge:\t" + this.age + "\nGender:\t" + this.gender + "\nInterest:" + this.interests)
+        console.log(`Hello, my name is ${this.name} and I am ${this.age} years old. My interests are ${this.interests[0]},${this.interests[1]} and ${this.interests[2]}.`)
     }
 }
 
