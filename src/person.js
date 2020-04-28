@@ -1,9 +1,9 @@
 class Person {
     constructor(name, age, gender, interests) {
-            this.name = name
-            this.age = age
-            this.gender = gender
-            this.interests = interests
+        this.name = name
+        this.age = age
+        this.gender = gender
+        this.interests = interests
     }
 
     hello() {
@@ -12,3 +12,5 @@ class Person {
 }
 let person = new Person('Ryan', 30, 'male', ['being a hardarse', ' agile', 'ssd hard drives'])
 let greeting = person.hello()
+
+module.exports = { person }
