@@ -1,6 +1,7 @@
 const { Person } = require("../src/person")
 
 let person = new Person('Ryan', 30, 'male', ['being a hardarse', ' agile', 'ssd hard drives'])
+
 describe("person", function() {
     it("should compare name", function() {
 
